@@ -32,14 +32,17 @@
 @property (assign)NSDockTile *cumtomDockTile;
 
 
+// FIRST GROUP
+- (IBAction)button_one:(NSButton *)sender;
+- (IBAction)button_two:(NSButton *)sender;
+- (IBAction)button_three:(NSButton *)sender;
+- (IBAction)button_four:(NSButton *)sender;
+
+// SECOND GROUP
 - (IBAction)button_five:(NSButton *)sender;
 - (IBAction)button_six:(NSButton *)sender;
 - (IBAction)button_seven:(NSButton *)sender;
 - (IBAction)button_eight:(NSButton *)sender;
-
-
-// ICON DOCK AREA BUTTONS
-
 
 // || LAST GROUP
 - (IBAction)button_nine:(NSButton *)sender;
@@ -47,8 +50,6 @@
 - (IBAction)button_eleven:(NSButton *)sender;
 - (IBAction)button_twelve:(NSButton *)sender;
 
-- (IBAction)notification_button:(NSButton *)sender;
-
-
+- (IBAction)send_notification:(NSButton *)sender;
 
 @end

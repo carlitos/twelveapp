@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8D977B81-7623-4403-BDA2-D60F6666CD23</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TwelveApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3D3FD153-832D-4696-A9A4-FA7AE2DC2946</key>
+		<string>https://github.com/carlitos/twelveapp</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TwelveApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3D3FD153-832D-4696-A9A4-FA7AE2DC2946</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/carlitos/twelveapp</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3D3FD153-832D-4696-A9A4-FA7AE2DC2946</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3D3FD153-832D-4696-A9A4-FA7AE2DC2946</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TwelveApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
