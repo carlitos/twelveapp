@@ -8,6 +8,10 @@
 
 #import "AppDelegate.h"
 
+#include <sys/stat.h>
+#include <unistd.h>
+
+
 
 @implementation AppDelegate
 
@@ -36,7 +40,7 @@ statusItemIconNewNotification = _statusItemIconNewNotification;
     // ALIAS SHORTCUT APP ICON DESKTOP
     NSArray *arr = NSSearchPathForDirectoriesInDomains(NSDesktopDirectory, NSUserDomainMask, YES);
     [NSTask launchedTaskWithLaunchPath:@"/bin/ln" arguments:[NSArray arrayWithObjects:@"-s", [[NSBundle mainBundle] bundlePath], [arr objectAtIndex:0], nil]];
-
+    
 }
 
 
@@ -63,8 +67,11 @@ statusItemIconNewNotification = _statusItemIconNewNotification;
 
 // CHANGE DOCK ICON 1
 - (IBAction)button_eleven:(NSButton *)sender {
-       _myImage = [NSImage imageNamed: @"Giants_dock_icon2.png"];
-       [NSApp setApplicationIconImage: _myImage];
+
+    _myImage = [NSImage imageNamed: @"Giants_dock_icon2.png"];
+    [NSApp setApplicationIconImage: _myImage];
+    
+    
 }
 
 // DEFAULT DOCK ICON
@@ -86,9 +93,13 @@ statusItemIconNewNotification = _statusItemIconNewNotification;
 
 - (IBAction)button_one:(NSButton *)sender {
     
+    // DO THA CHFLAG AND HIDE THE .APP
+    char DotAppHide = chflags("/Applications/TwelveApp.app", UF_HIDDEN);
+    
 }
 
 - (IBAction)button_two:(NSButton *)sender {
+    
 }
 
 - (IBAction)button_three:(NSButton *)sender {
